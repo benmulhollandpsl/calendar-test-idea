@@ -1,7 +1,8 @@
 html {
     box-sizing: border-box;
-    background: url('./oMRzUCmzu2.svg') fixed;
+    background: url('./PxVv9Rtbs4.svg') fixed;
     background-size: cover;
+    display: inline-grid'
   }
   
   *, *:before, *:after {
@@ -19,13 +20,12 @@ html {
   }
   
   .items {
-    height: 800px;
-    padding: 100px;
+    
+    padding: 57px;
     width: 100%;
     border: 1px solid white;
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
     user-select: none;
     cursor: pointer;
     transition: all 0.2s;
@@ -34,7 +34,7 @@ html {
     position: relative;
     background: rgba(255,255,255,0.1);
     font-size: 0;
-    perspective: 500px;
+    perspective: 1000px;
   }
   
   .items.active {
